@@ -1,0 +1,81 @@
+@import url('https ://fonts.googleapis.com/css2?family=poppins:wght@400;700&displaay=swap'); 
+
+*{
+    font-family: 'poppins',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ .container {
+    background-image:linear-gradient(to right, #01022de5 30%,#00000036)  ;
+    background-position: center;
+    height: 640px;
+    width: 90%;
+}
+.container:hover{
+    background-image:linear-gradient(to right, #01022de5 30%,transparent)  ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    margin: 3px;
+}
+.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul  {
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul li a {
+    border-bottom: 2px solid transparent;
+    color: #fff;
+    margin: 0 10px ;
+}
+ul li a:hover{
+    border-bottom-color: white;
+}
+.content{
+    color: #fff;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content  h2 {
+    font-size: 100px ;
+    text-transform: uppercase;
+}
+.content  p {
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 20px 0;
+}
+.content button {
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: transparent;
+    border: 2px solid #fff ;
+    color: #fff;
+}
+
+
